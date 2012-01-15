@@ -55,8 +55,9 @@
 									<span class="nak_close"></span>
 									<h2>EVENT</h2>
 									<ul>
-										<li></li>
-										<li></li>
+										<li>Kode-tantra</li>
+										<li>Algo-neeti</li>
+										<li>Algo-neeti</li>
 									</ul>
 								</div>
 							</li>
@@ -142,7 +143,10 @@
 		</div>
 		<div id="nak_sidebardiv">
 			<ul id="nak_sidebar" >
-				<li><a href="#" ></a></li>
+		  		<li><a href="#!info" rel="ajax"><img class ="sbicon" title="Information" src="images/sbinfo.png"/></a></li>
+		  		<li><a href=""><img class ="sbicon" title="Schedule" src="images/sbschedule.png"/></a></li>
+		  		<li><a href="#!gallery"><img class ="sbicon" title="Gallery" src="images/sbgallery.png"/></a></li>
+		  		<li><a href="#!feedback" rel="ajax"><img class ="sbicon" title="Feedback" src="images/sbfeedback.png"/></a></li>
 			</ul>
 		</div>
 		<div id="nak_middle">
