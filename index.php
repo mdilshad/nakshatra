@@ -1,7 +1,11 @@
+<?php
+$warn = '';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
+		<title>Nakshatra '12 | National Institute of Technology, Calicut</title>
 		<meta charset=utf-8>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
@@ -11,7 +15,6 @@
 		<script type="text/javascript" src="js/sliderman.1.3.6.js"></script>
 		<script type="text/javascript" src="js/jquery.sidebar.js"></script>
 		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-		
 	</head>
 	<body>
 		<div id="nak_background" class="nak_background">
@@ -35,7 +38,7 @@
 				
 				</div>
 				<div id="nak_content" class="nak_content">
-					<h1><span></span>NAKSHATRA'12</h1>
+					<h1><span></span>FEB 17th - 20th      <img src="images/logo/logo10.png"/></h1>
 					<div class="nak_menu">
 						<ul>
 							<li>
@@ -55,9 +58,9 @@
 									<span class="nak_close"></span>
 									<h2>EVENT</h2>
 									<ul>
-										<li>Kode-tantra</li>
-										<li>Algo-neeti</li>
-										<li>Algo-neeti</li>
+										<li></li>
+										<li><a href="#">Kode-Tantra</a></li>
+										<li><a href="#">Algo-Neeti</a></li>
 									</ul>
 								</div>
 							</li>
@@ -90,7 +93,7 @@
 									<h2>Contacts</h2>
 									<ul>
 										<li></li>
-										<li></li>
+										<li>Mohammad Dilshad       +91-8089868220</li>
 									</ul>
 								</div>
 							</li>
@@ -103,7 +106,7 @@
 										<li>Fill in the required details</li>
 										<li>
 											<div id="nak_signin">
-												<form id="nak_signinform" method="">
+												<form id="nak_signinform" method="" >
 													<label>Name
 														<span class="nak_small">Enter your name<span>
 													</label>
@@ -120,14 +123,12 @@
 														<span class="nak_small">Min of 6 char<span>
 													</label>
 													<input type="password" name="password" id="password">
-													<label>Confirm password
-														<span class="nak_small">Retype your password<span>
-													</label>
-													<input type="password" name="c_password" id="c_password">
+													
 													<label>College name
 														<span class="nak_small">Enter your college<span>
 													</label>
 													<input type="text" name="college" id="college">
+													<label><span class="warn"><?php echo $warn;?><span></label>
 													<button type="submit">Register</button>
 												</form>
 											</div>
@@ -143,10 +144,10 @@
 		</div>
 		<div id="nak_sidebardiv">
 			<ul id="nak_sidebar" >
-		  		<li><a href="#!info" rel="ajax"><img class ="sbicon" title="Information" src="images/sbinfo.png"/></a></li>
+		  		<li><a href="#" rel="ajax"><img class ="sbicon" title="Information" src="images/sbinfo.png"/></a></li>
 		  		<li><a href=""><img class ="sbicon" title="Schedule" src="images/sbschedule.png"/></a></li>
-		  		<li><a href="#!gallery"><img class ="sbicon" title="Gallery" src="images/sbgallery.png"/></a></li>
-		  		<li><a href="#!feedback" rel="ajax"><img class ="sbicon" title="Feedback" src="images/sbfeedback.png"/></a></li>
+		  		<li><a href="#"><img class ="sbicon" title="Gallery" src="images/sbgallery.png"/></a></li>
+		  		<li><a href="#" rel="ajax"><img class ="sbicon" title="Feedback" src="images/sbfeedback.png"/></a></li>
 			</ul>
 		</div>
 		<div id="nak_middle">
@@ -180,7 +181,12 @@
 			</div>
 		</div>
 		<div class="nak_footer">
-<p><center> Updated by : Mohammad Dilshad and Team<p>
+<p><center> Update and maintained by : Web Developement Team<p>
+<div id="nitc">
+  		<br>...........................................................<br/>
+  		<span> Best viewed in latest versions of <a href="http://google.com/chrome" target="_blank">Google Chrome</a> and <a href="http://www.mozilla.com/en-US/firefox/new/" target="_blank">Mozilla Firefox</a> </span>
+
+  		</div>
 		</div>
 		<script type="text/javascript">
 			$("ul#nak_sidebar").sidebar();
