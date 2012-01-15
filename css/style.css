@@ -237,16 +237,28 @@ span.nak_close:hover{
 {
 	width: 595px;
 	float:left;
-	min-height:200px;
-	margin-bottom: 30px;
+	height:270px;
+	margin-bottom: 10px;
 	margin-top:20px;
-	padding: 20px 0px 50px;
 	background: url(../images/trans.png) repeat;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	border:1px solid #4A4A4A;
 
+}
+#nak_description{
+	position:relative;
+	width:595px;
+	height:270px;
+	margin:0px auto;
+	margin-top:0px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border:1px solid #4A4A4A;
+	background-color:#333;
+	overflow:hidden;
 }
 #nak_right{
 	width:290px;
@@ -269,7 +281,7 @@ span.nak_close:hover{
 	height:270px;
 	margin:0px auto;
 	margin-top:0px;
--webkit-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	border:1px solid #4A4A4A;
