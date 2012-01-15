@@ -32,9 +32,10 @@
 						<img src="ads/07.jpg" width="285" height="150" alt="" title="" />
 						<img src="ads/08.jpg" width="285" height="150" alt="" title="" />
 					</div>
+				
 				</div>
 				<div id="nak_content" class="nak_content">
-					<h1><span></span>NAKSHATRA</h1>
+					<h1><span></span>NAKSHATRA'12</h1>
 					<div class="nak_menu">
 						<ul>
 							<li>
@@ -146,11 +147,25 @@
 		</div>
 		<div id="nak_middle">
 			<div id="nak_middlecontent">
+
 			</div>
 			<div id="nak_right">
+		
+		<div id="nak_events" class="nak_sponsers">
+						<img src="ads/01.jpg" width="290" height="300" alt="" title="" />
+						<img src="ads/02.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/03.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/04.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/05.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/06.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/07.jpg" width="285" height="150" alt="" title="" />
+						<img src="ads/08.jpg" width="285" height="150" alt="" title="" />
+					
+			</div>
 			</div>
 		</div>
 		<div class="nak_footer">
+<p><center> Updated by : Mohammad Dilshad and Team<p>
 		</div>
 		<script type="text/javascript">
 			$("ul#nak_sidebar").sidebar();
