@@ -122,6 +122,26 @@ $(function() {
 							/* closes the submenu */
 							$nak_close.bind('click.Menu', function(e) {
 								closeSubMenu($sub_menu);
+								$(".nak_middlecontent1").hide();
+$(".nak_middlecontent2").hide();
+$(".nak_middlecontent3").hide();
+$(".nak_middlecontent4").hide();
+$(".nak_middlecontent5").hide();
+$(".nak_middlecontent6").hide();
+$(".nak_middlecontent6").hide();
+$(".nak_middlecontent8").hide();
+$(".nak_middlecontent9").hide();
+$(".nak_middlecontent").show();
+$(".nak_event").show();
+$(".nak_event1").hide();
+$(".nak_event2").hide();
+$(".nak_event3").hide();
+$(".nak_event4").hide();
+$(".nak_event5").hide();
+$(".nak_event6").hide();
+$(".nak_event7").hide();
+$(".nak_event8").hide();
+$(".nak_event9").hide();
 								return false;
 							});
 						});
@@ -129,7 +149,7 @@ $(function() {
 					openSubMenu			= function($item, $sub_menu, el_image) {
 						$sub_menu.stop()
 						.animate({
-							height		: '400px',
+							height		: '300px',
 							marginTop	: '-300px'
 						}, 400, function() {
 										//the bg image changes
@@ -228,3 +248,15 @@ $(function() {
 				 */
 				Menu.init();
 			});
+
+ 
+function toggle1()
+{
+	var ele = document.getElementById("nak_description");
+    		ele.style.display = "block";	
+} 
+function toggle2() 
+{
+	var ele = document.getElementById("nak_description");
+    		ele.style.display = "none";		
+} 

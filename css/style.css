@@ -106,8 +106,8 @@ img.nak_bgimage{
 	text-shadow:1px 1px 1px #000;
 }
 .nak_subitem{
-	width:400px;
-	height:0px; /* animate to 400px */
+	width:800px;
+	height:0px; /* animate to 300px */
 	top:50%;
 	right:0px;
 	color:#DDD;
@@ -119,6 +119,7 @@ img.nak_bgimage{
 	-webkit-border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;
 	border-radius:0px 0px 10px 10px;
+	opacity:1;
 }
 
 .nak_subitem h2{
@@ -289,17 +290,35 @@ span.nak_close:hover{
 	height:270px;
 	margin:0px auto;
 	margin-top:0px;
+	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
-	border-radius: 20px;
 	border:1px solid #4A4A4A;
 	background-color:#333;
+	overflow:hidden;
+}
+#nak_logo{
+	position:relative;
+	width:800px;
+	height:160px;
+	margin-top:80px;
+	margin-left:40px;
+	background-color:transparent;
+	overflow:hidden;
+}
+#nak_massage{
+	position:relative;
+	width:100px;
+	height:20px;
+	margin-top:0px;
+	margin-left:1000px;
+	background-color:transparent;
 	overflow:hidden;
 }
 
 #nak_sponsers{
 	position:relative;
-	width:286px;
+	width:150px;
 	height:150px;
 	margin:0px auto;
 	margin-top:5px;
@@ -308,7 +327,7 @@ span.nak_close:hover{
 	overflow:hidden;
 }
 #nak_sponsers_container{
-	width:296px;
+	width:160px;
 	height:160px;
 	position:relative;
 	float:right;
