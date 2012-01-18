@@ -249,14 +249,5 @@ $(".nak_event9").hide();
 				Menu.init();
 			});
 
+ //****************************************************************************
  
-function toggle1()
-{
-	var ele = document.getElementById("nak_description");
-    		ele.style.display = "block";	
-} 
-function toggle2() 
-{
-	var ele = document.getElementById("nak_description");
-    		ele.style.display = "none";		
-} 

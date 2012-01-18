@@ -46,10 +46,10 @@ $warn = '';
 								<a class="nak_menu_a" href="images/IMG158.jpg" class="home">Home</a>
 								<div class="nak_subitem"><br/>
 									<span class="nak_close"></span>
-									<h2>home</h2>
+									<h2>About</h2>
 									<ul>
 										<li></li>
-										<li></li>
+										<li><p>Nakshatra, The All India Annual MCA meet of country's premier NIT's, the National Institute of Technology Calicut is back with pride to bring you its 5th edition. This time Nakshatra is evolving as a brighter and better Techno-Management Fest. Event attracts the most brilliant and dynamic technocrats from all over the country. Nakshatra this year has a formidable line-up of top echelon events shows to keep the audience captivated and awed, from nerve-racking competitions to workshops by noted luminaries, which will provide an enriching experience for the avid learners. Nakshatra '09 is a galore of cerebral minds & will have everything to conquer your imagination. So come join us and lets coordinate and exhibit ourselves & form a galaxy full of shining stars and set the foundation of success.</p> </li>
 									</ul>
 								</div>
 							</li>

@@ -1,5 +1,12 @@
 <div id="nak_events" class="nak_event">
-						<img src="images/events/darkmatter.jpg" width="290" height="300" alt="" title="" />
+						<img src="images/events/Coding1.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/Coding1.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/web.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/present.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/Quiz1.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/linux1.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/Coding1.png" width="150" height="150" alt="" title="" />
+						<img src="images/events/Coding1.png" width="150" height="150" alt="" title="" />
 </div>
 
 <div id="nak_events" class="nak_event1">
