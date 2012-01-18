@@ -299,8 +299,8 @@ span.nak_close:hover{
 }
 #nak_logo{
 	position:relative;
-	width:800px;
-	height:160px;
+	width:70%;
+	height:5%;
 	margin-top:80px;
 	margin-left:40px;
 	background-color:transparent;
@@ -328,10 +328,10 @@ span.nak_close:hover{
 }
 #nak_sponsers_container{
 	width:160px;
-	height:160px;
+	height:180px;
 	position:relative;
 	float:right;
-	bottom:-135px;
+	bottom:-105px;
 	margin-right:65px;
 	border:1px solid #4A4A4A;
 	background-color:#333;

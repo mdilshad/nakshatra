@@ -25,7 +25,7 @@ $warn = '';
 		<div id=nak_top>
 			<div id="nak_topcontent">
 			
-				<div id="nak_sponsers_container">
+				<div id="nak_sponsers_container"><center>Previous Sponsers
 					<div id="nak_sponsers" class="nak_sponsers">
 						<img src="images/01.jpg" width="150" height="150" alt="" title="" />
 						<img src="images/02.jpg" width="150" height="150" alt="" title="" />
@@ -49,12 +49,12 @@ $warn = '';
 									<h2>About</h2>
 									<ul>
 										<li></li>
-										<li><p>Nakshatra, The All India Annual MCA meet of country's premier NIT's, the National Institute of Technology Calicut is back with pride to bring you its 5th edition. This time Nakshatra is evolving as a brighter and better Techno-Management Fest. Event attracts the most brilliant and dynamic technocrats from all over the country. Nakshatra this year has a formidable line-up of top echelon events shows to keep the audience captivated and awed, from nerve-racking competitions to workshops by noted luminaries, which will provide an enriching experience for the avid learners. Nakshatra '09 is a galore of cerebral minds & will have everything to conquer your imagination. So come join us and lets coordinate and exhibit ourselves & form a galaxy full of shining stars and set the foundation of success.</p> </li>
+										<li><p>&nbsp;&nbsp;&nbsp; Nakshatra, The All India Annual MCA meet of country's premier NIT's, the National Institute of Technology Calicut is back with pride to bring you its 5th edition. This time Nakshatra is evolving as a brighter and better Techno-Management Fest. Event attracts the most brilliant and dynamic technocrats from all over the country. Nakshatra this year has a formidable line-up of top echelon events shows to keep the audience captivated and awed, from nerve-racking competitions to workshops by noted luminaries, which will provide an enriching experience for the avid learners. Nakshatra '09 is a galore of cerebral minds & will have everything to conquer your imagination. So come join us and lets coordinate and exhibit ourselves & form a galaxy full of shining stars and set the foundation of success.</p> </li>
 									</ul>
 								</div>
 							</li>
 							<li>
-								<a class="nak_menu_a" href="images/IMG159.jpg">Event</a>
+								<a class="nak_menu_a" href="images/IMG159.jpg">Events</a>
 								<div class="nak_subitem"><br/>
 									<span class="nak_close"></span>
 									<h2>EVENT</h2>
@@ -82,8 +82,26 @@ $warn = '';
 									<span class="nak_close"></span>
 									<h2>Forum</h2>
 									<ul>
-										<li>CODING</li>
-										<li>CODER</li>
+										<li>Please give your suggetions</li>
+										<li>
+											<div id="nak_signin">
+												<form id="nak_feedback" method="post" >
+													<label>Name
+														<span class="nak_small">Enter your name<span>
+													</label>
+													<input type="text" name="name" id="name">
+													<label>feedback
+														<span class="nak_small">Enter your suggesion<span>
+													</label>
+													<input type="textbox" name="feedback" id="feedback">
+													<label>Email
+														<span class="nak_small">Enter valid email add<span>
+													</label>
+													<input type="text" name="email" id="email">
+													<center><button type="submit">Submit</button>
+												</form>
+											</div>
+										</li>
 									</ul>
 								</div>
 							</li>
@@ -105,7 +123,7 @@ $warn = '';
 									<h2>Contacts</h2>
 									<ul>
 										<li>For Any Suggesion about page</li>
-										<li>Mohammad Dilshad       +91-8089868220</li>
+										<li>Mohammad Dilshad <?php for($i=0;$i<=20;$i++) echo '&nbsp';?>  +91-8089868220</li>
                                     
 									</ul>
 								</div>
@@ -157,9 +175,9 @@ $warn = '';
 					</div>
 				</div>
 				<div id="nak_logo">
-				<img src="images/logo/logo10.png" width="800" height="160">
+				<img src="images/logo/logo10.png" width="100%" height="100%">
 				</div>
-				<div>Previous</div>
+				
 			</div>
 		</div>
 		<div id="nak_sidebardiv">
@@ -170,11 +188,25 @@ $warn = '';
 		  		<li><a href="#" rel="ajax"><img class ="sbicon" title="Feedback" src="images/sbfeedback.png"/></a></li>
 			</ul>
 		</div>
+		<div class="nak_menu">
+					<ul>
+							<li>
+								<a class="nak_menu_a" href="#" class="home"><img src="images/01.jpg" width="150" height="150" alt="" title="" /></a>
+								<div class="nak_subitem"><br/>
+									<span class="nak_close"></span>
+									<h2>About</h2>
+									<ul>
+										<li></li>
+									</ul>
+								</div>
+							</li>
+							</ul></div>
 		<div id="nak_middle">
-			
+		
+			<a href="#">
 		 			<?php include("middlecontent.php"); ?>
 					<?php include("middlecontentjquery.php"); ?>
-			
+			</a>
 			<div id="nak_right">
 		<a href="#">
 				
@@ -184,7 +216,7 @@ $warn = '';
 			</div>
 		</div>
 		<div class="nak_footer">
-<p><center> Update and maintained by : Technical Team of Nak'12<p>
+<p><center> Update and maintained by : <a href="http://andromeda.nitc.ac.in/~dilshad" target="_blank">Technical Team of Nak'12</a><p>
 <div id="nitc">
   		<br>...........................................................<br/>
   		<span> Best viewed in latest versions of <a href="http://google.com/chrome" target="_blank">Google Chrome</a> and <a href="http://www.mozilla.com/en-US/firefox/new/" target="_blank">Mozilla Firefox</a> </span>
@@ -195,10 +227,10 @@ $warn = '';
 			$("ul#nak_sidebar").sidebar();
 			$(document).ready(function() {
 						demo4Easing = { name: 'pow2', method: function(x) { return Math.pow(x,2); }};
-						demo4Effect1 = {name: 'myEffect41', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 100, duration: 400};
-						demo4Effect2 = {name: 'myEffect42', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 100, duration: 400, reverse: true};
-						demo4Effect3 = {name: 'myEffect43', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 200, duration: 1000};
-						demo4Effect4 = {name: 'myEffect44', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 200, duration: 1000, reverse: true};
+						demo4Effect1 = {name: 'myEffect41', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 150, duration: 800};
+						demo4Effect2 = {name: 'myEffect42', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 150, duration: 800, reverse: true};
+						demo4Effect3 = {name: 'myEffect43', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 150, duration: 800};
+						demo4Effect4 = {name: 'myEffect44', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 150, duration: 800, reverse: true};
 						demo4Effect5 = {name: 'myEffect45', rows: 3, cols: 10, zoom: true, move: true, right: true, easing: 'swing', order: 'circle', delay: 150, duration: 800};
 						demo4Effect6 = {name: 'myEffect46', rows: 3, cols: 10, zoom: true, move: true, left: true, easing: 'swing', order: 'circle', delay: 150, duration: 800, reverse: true};
 						demo4Effect7 = {name: 'myEffect49', rows: 5, cols: 1, zoom: true, move: true, bottom: true, easing: 'bounce', order: 'circle', delay: 150, duration: 800};
@@ -224,12 +256,12 @@ $warn = '';
 $("ul#nak_description").sidebar();
 			$(document).ready(function() 
                                         {
-               demo3Effect1 = {name: 'myEffect31', top: true, move: true, duration: 800};
-					demo3Effect2 = {name: 'myEffect32', right: true, move: true, duration: 800};
-					demo3Effect3 = {name: 'myEffect33', bottom: true, move: true, duration: 800};
-					demo3Effect4 = {name: 'myEffect34', left: true, move: true, duration: 800};
-					demo3Effect5 = {name: 'myEffect35', right: true, move: true, duration: 800};
-					demo3Effect6 = {name: 'myEffect36', bottom: true, move: true, duration: 800};
+               demo3Effect1 = {name: 'myEffect31', top: true, move: true, duration: 950};
+					demo3Effect2 = {name: 'myEffect32', right: true, move: true, duration: 950};
+					demo3Effect3 = {name: 'myEffect33', bottom: true, move: true, duration: 950};
+					demo3Effect4 = {name: 'myEffect34', left: true, move: true, duration: 950};
+					demo3Effect5 = {name: 'myEffect35', right: true, move: true, duration: 950};
+					demo3Effect6 = {name: 'myEffect36', bottom: true, move: true, duration: 950};
 
 					effectsDemo3 = [demo3Effect1,demo3Effect2,demo3Effect3,demo3Effect4,demo3Effect5,demo3Effect6,'blinds'];
 
@@ -241,16 +273,16 @@ $("ul#nak_description").sidebar();
 
 $("ul#nak_events").sidebar();
 			$(document).ready(function() {
-						effectsDemo2 = 'rain,stairs,fade';
-					var demoSlider_2 = Sliderman.slider({container: 'nak_events', width: 290, height: 270, effects: effectsDemo2,
-						display: {
-							autoplay: 3000,
-							loading: {background: '#000000', opacity: 0.5, image: 'ads/loading.gif'},
-							buttons: {hide: true, opacity: 1, prev: {className: 'nak_events', label: ''}, next: {className: 'nak_events', label: ''}},
-							description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
-							navigation: {container: 'nak_events', label: '<img src="ads/clear.gif" />'}
-						}
-					});
+						 demo3Effect1 = {name: 'myEffect31', top: true, move: true, duration: 950};
+					demo3Effect2 = {name: 'myEffect32', right: true, move: true, duration: 950};
+					demo3Effect3 = {name: 'myEffect33', bottom: true, move: true, duration: 950};
+					demo3Effect4 = {name: 'myEffect34', left: true, move: true, duration: 950};
+					demo3Effect5 = {name: 'myEffect35', right: true, move: true, duration: 950};
+					demo3Effect6 = {name: 'myEffect36', bottom: true, move: true, duration: 950};
+
+					effectsDemo2 = [demo3Effect1,demo3Effect2,demo3Effect3,demo3Effect4,demo3Effect5,demo3Effect6,'blinds'];
+
+					var demoSlider_3 = Sliderman.slider({container: 'nak_events', width: 290, height: 270, effects: effectsDemo2, display: {autoplay: 3000}});
                       });
 
 		</script>

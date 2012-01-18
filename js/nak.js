@@ -121,6 +121,7 @@ $(function() {
 							});
 							/* closes the submenu */
 							$nak_close.bind('click.Menu', function(e) {
+								
 								closeSubMenu($sub_menu);
 								$(".nak_middlecontent1").hide();
 $(".nak_middlecontent2").hide();
@@ -132,6 +133,7 @@ $(".nak_middlecontent6").hide();
 $(".nak_middlecontent8").hide();
 $(".nak_middlecontent9").hide();
 $(".nak_middlecontent").show();
+
 $(".nak_event").show();
 $(".nak_event1").hide();
 $(".nak_event2").hide();
@@ -187,11 +189,11 @@ $(".nak_event9").hide();
 						*/
 					initWindowEvent		= function() {
 						/* on window resize set the width for the menu */
-						$(window).bind('resize.Menu' , function(e) {
+					$(window).bind('resize.Menu' , function(e) {
 							adjustImageSize($nak_bgimage);
 							/* calculate new width for the menu */
-							var new_w	= $(window).width() - (4*$title.outerWidth(true));
-							$menu.css('width', new_w + 'px');
+							//var new_w	= $(window).width() - (4*$title.outerWidth(true));
+							//$menu.css('width', new_w + 'px');
 						});
 					},
 						/* makes an image "fullscreen" and centered */
